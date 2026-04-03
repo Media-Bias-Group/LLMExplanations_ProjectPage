@@ -3,6 +3,27 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="ga-project-slug" content="LLMExplanations-ProjectPage">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9FQN107WVK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    const host = window.location.hostname;
+    const pathParts = window.location.pathname.split('/').filter(Boolean);
+    const projectSlug =
+      document.querySelector('meta[name="ga-project-slug"]')?.content ||
+      pathParts[0] ||
+      host;
+
+    gtag('config', 'G-9FQN107WVK', {
+      page_location: window.location.href,
+      page_title: document.title,
+      project_slug: projectSlug
+    });
+  </script>
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
