@@ -37,7 +37,13 @@
       datePublished: "2026-03-04",
       previewImage: "static/images/TeaserImageLLM.png",
       pdfUrl: "https://media-bias-group.github.io/LLMExplanations_ProjectPage/static/pdfs/paper.pdf",
-      citationKey: "Wessel2026Plausibility",
+      bibtex: `@article{Wessel2026Plausibility,
+  title={Plausibility Machines: How LLM-Generated Explanations Shape Media Bias Perception},
+  author={Martin Wessel and Smi Hinterreiter and Karsten Donnay and Jürgen Pfeffer and Marc Erich Latoschik and Timo Spinde},
+  journal={Under Review},
+  year={2026},
+  url={https://media-bias-group.github.io/LLMExplanations_ProjectPage/}
+}`,
       themeColor: "#2563eb",
       keywords: ["media bias", "large language models", "explainability", "media literacy", "perception"],
       tags: ["LLM", "Bias perception"],
@@ -89,13 +95,7 @@
       "'": "&#39;"
     }[character]));
     const projectPageTitle = () => `${PROJECT.title} - ${projectAuthors()} | Paper Summary`;
-    const projectBibTeX = () => `@article{${PROJECT.citationKey},
-  title={${PROJECT.title}},
-  author={${PROJECT.authors.map(author => author.name).join(" and ")}},
-  journal={${PROJECT.venue}},
-  year={${PROJECT.year}},
-  url={${PROJECT.siteUrl}}
-}`;
+    const projectBibTeX = () => PROJECT.bibtex;
     const projectMeta = (type, name, content) =>
       `<meta ${type}="${projectEscape(name)}" content="${projectEscape(content)}">`;
 
