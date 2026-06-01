@@ -49,14 +49,16 @@ To edit the websites contents edit the `index.html` file. It contains different 
 
 ## Customization
 
-The HTML file has TODO comments showing what to replace:
+Edit the `PROJECT` object near the top of `index.html` first. It controls the
+repeated paper title, authors, status/year, abstract, highlights, BibTeX, search
+metadata, social preview metadata, and Google Scholar citation tags.
 
-- Paper title, authors, institution, conference
+The rest of the HTML file has TODO comments showing what to replace:
+
 - Links (arXiv, GitHub, etc.)
-- Abstract and descriptions  
 - Videos, images, and PDFs
 - Related works in the dropdown
-- Meta tags for SEO and social sharing
+- Any page sections you want to add, remove, or rewrite
 
 ### Meta Tags
 The template includes meta tags for better search engine visibility and social media sharing. These appear in the `<head>` section and help with:

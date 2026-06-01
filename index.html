@@ -25,72 +25,195 @@
     });
   </script>
   
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="Plausibility Machines: How LLM-Generated
-Explanations Shape Media Bias Perception - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="Explanations changed how people perceive bias. LMM explanations influenced peoples' perceptions more. Bias ratings were more accurate after explanation. Exception: People perceived more bias than there was after they read LLM explanations of articles with no to little bias. LLM and prompts extremely important: If prompted to identify bias, LLM will identify bias, no matter how little bias there is.">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="media bias, large language models, explainability, media literacy, perception">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="Wessel, Martin, Hinterreiter, Smi, Donnay, Karsten, Pfeffer, Jürgen, Latoschik, Marc Erich, Spinde, Timo">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="Media Bias Group">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="Plausibility Machines: How LLM-Generated
-Explanations Shape Media Bias Perception">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="Explanations changed how people perceive bias. LMM explanations influenced peoples' perceptions more. Bias ratings were more accurate after explanation. Exception: People perceived more bias than there was after they read LLM explanations of articles with no to little bias. LLM and prompts extremely important: If prompted to identify bias, LLM will identify bias, no matter how little bias there is.">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://media-bias-group.github.io/LLMExplanations_ProjectPage">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://media-bias-group.github.io/LLMExplanations_ProjectPage/static/images/TeaserImageLLM.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Plausibility Machines: How LLM-Generated Explanations Shape Media Bias Perception - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="Martin Wessel">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="LLM">
-  <meta property="article:tag" content="Bias perception">
+  <!-- Edit project metadata here. The small script below fills repeated fields. -->
+  <script>
+    const PROJECT = {
+      title: "Plausibility Machines: How LLM-Generated Explanations Shape Media Bias Perception",
+      siteName: "Media Bias Group",
+      siteUrl: "https://media-bias-group.github.io/LLMExplanations_ProjectPage/",
+      status: "Under Review",
+      venue: "Under Review",
+      year: "2026",
+      datePublished: "2026-03-04",
+      previewImage: "static/images/TeaserImageLLM.png",
+      pdfUrl: "https://media-bias-group.github.io/LLMExplanations_ProjectPage/static/pdfs/paper.pdf",
+      citationKey: "Wessel2026Plausibility",
+      themeColor: "#2563eb",
+      keywords: ["media bias", "large language models", "explainability", "media literacy", "perception"],
+      tags: ["LLM", "Bias perception"],
+      description: [
+        "Explanations changed how people perceive bias.",
+        "LMM explanations influenced peoples' perceptions more.",
+        "Bias ratings were more accurate after explanation.",
+        "Exception: People perceived more bias than there was after they read LLM explanations of articles with no to little bias.",
+        "LLM and prompts extremely important: If prompted to identify bias, LLM will identify bias, no matter how little bias there is."
+      ],
+      abstract: [
+        "The prevalence of bias in news media can undermine democratic processes by reinforcing partisan divides, eroding public trust, and influencing electoral results.",
+        "Even though consumers often overlook biases, interventions to help audiences recognize them remain limited.",
+        "Large language models (LLMs) show promise for generating explanations to disclose and mitigate bias in news articles, but their effectiveness remains untested.",
+        "We conduct a randomized controlled trial with U.S. adults (n=504) reading a news article to measure whether LLM-generated explanations, presented without source attribution, can change audiences’ perception of media bias, and how perception changes compare to human-written explanations and no-explanation controls.",
+        "We find that explanations significantly change bias perception compared to controls.",
+        "However, only LLM explanations increase bias perception significantly.",
+        "Further, political alignment with an article increases bias perception after LLM explanations but not after human explanations.",
+        "Descriptively, LLM explanations produce false positives on low-bias content and reduce participant-expert alignment, whereas human explanations have more conservative patterns but are overall more accurate.",
+        "We discuss the potential of LLMs in media literacy interventions and their role as “plausibility machines” that tend to produce false positives by overidentifying bias, leading neutral content to be perceived as biased."
+      ],
+      highlights: [
+        "LLMs like ChatGPT could explain bias to news readers, but are the explanations as effective as expert explanations?",
+        "Study compared how people rate bias of an article before + after reading a text explaining the bias (either written by expert or LLM)",
+        "Explanations changed how people perceive bias",
+        "LMM explanations influenced peoples' perceptions more",
+        "Bias ratings were more accurate after explanation",
+        "Exception: People perceived more bias than there was after they read LLM explanations of articles with no to little bias",
+        "LLM and prompts extremely important: If prompted to identify bias, LLM will identify bias, no matter how little bias there is"
+      ],
+      authors: [
+        {name: "Martin Wessel", url: "https://www.linkedin.com/in/martinpwessel/", affiliation: "Technical University of Munich, Germany", equalContribution: true},
+        {name: "Smi Hinterreiter", url: "https://www.linkedin.com/in/smi-hinterreiter/", affiliation: "University of Würzburg, Germany", equalContribution: true},
+        {name: "Karsten Donnay", url: "https://www.linkedin.com/in/karsten-donnay/", affiliation: "University of Zurich, Switzerland"},
+        {name: "Jürgen Pfeffer", url: "https://www.linkedin.com/in/jürgen-pfeffer-517423244/", affiliation: "Technical University of Munich, Germany"},
+        {name: "Marc Erich Latoschik", url: "https://hci.uni-wuerzburg.de/people/marc-latoschik/", affiliation: "University of Würzburg, Germany"},
+        {name: "Timo Spinde", url: "https://www.linkedin.com/in/timo-spinde/?locale=de", affiliation: "National Institute of Informatics, Japan"}
+      ]
+    };
 
-  <!-- Twitter 
-  <meta name="twitter:card" content="summary_large_image">
+    const projectText = (value) => Array.isArray(value) ? value.join(" ") : value;
+    const projectAuthors = () => PROJECT.authors.map(author => author.name).join(", ");
+    const projectUrl = (path) => path.startsWith("http") ? path : new URL(path, PROJECT.siteUrl).href;
+    const projectEscape = (value) => String(value).replace(/[&<>"']/g, character => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#39;"
+    }[character]));
+    const projectPageTitle = () => `${PROJECT.title} - ${projectAuthors()} | Paper Summary`;
+    const projectBibTeX = () => `@article{${PROJECT.citationKey},
+  title={${PROJECT.title}},
+  author={${PROJECT.authors.map(author => author.name).join(" and ")}},
+  journal={${PROJECT.venue}},
+  year={${PROJECT.year}},
+  url={${PROJECT.siteUrl}}
+}`;
+    const projectMeta = (type, name, content) =>
+      `<meta ${type}="${projectEscape(name)}" content="${projectEscape(content)}">`;
 
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
- 
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+    function writeProjectHead() {
+      const description = projectText(PROJECT.description);
+      const image = projectUrl(PROJECT.previewImage);
+      const imageAlt = `${PROJECT.title} - Research Preview`;
+      const articleData = {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "headline": PROJECT.title,
+        "description": description,
+        "author": PROJECT.authors.map(author => ({
+          "@type": "Person",
+          "name": author.name,
+          "affiliation": {"@type": "Organization", "name": author.affiliation}
+        })),
+        "datePublished": PROJECT.datePublished,
+        "publisher": {"@type": "Organization", "name": PROJECT.venue},
+        "url": PROJECT.siteUrl,
+        "image": image,
+        "keywords": PROJECT.keywords,
+        "abstract": projectText(PROJECT.abstract),
+        "citation": projectBibTeX(),
+        "isAccessibleForFree": true,
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "mainEntity": {"@type": "WebPage", "@id": PROJECT.siteUrl},
+        "about": PROJECT.keywords.map(name => ({"@type": "Thing", "name": name}))
+      };
+      const organizationData = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Media Bias Research Group",
+        "url": "https://media-bias-research.org",
+        "logo": projectUrl("static/images/favicon.ico"),
+        "sameAs": ["https://github.com/media-bias-group"]
+      };
+      const tags = [
+        projectMeta("name", "title", projectPageTitle()),
+        projectMeta("name", "description", description),
+        projectMeta("name", "keywords", PROJECT.keywords.join(", ")),
+        projectMeta("name", "author", projectAuthors()),
+        projectMeta("name", "robots", "index, follow"),
+        projectMeta("name", "language", "English"),
+        projectMeta("property", "og:type", "article"),
+        projectMeta("property", "og:site_name", PROJECT.siteName),
+        projectMeta("property", "og:title", PROJECT.title),
+        projectMeta("property", "og:description", description),
+        projectMeta("property", "og:url", PROJECT.siteUrl),
+        projectMeta("property", "og:image", image),
+        projectMeta("property", "og:image:width", "1200"),
+        projectMeta("property", "og:image:height", "630"),
+        projectMeta("property", "og:image:alt", imageAlt),
+        projectMeta("property", "article:published_time", `${PROJECT.datePublished}T00:00:00.000Z`),
+        ...PROJECT.authors.map(author => projectMeta("property", "article:author", author.name)),
+        projectMeta("property", "article:section", "Research"),
+        ...PROJECT.tags.map(tag => projectMeta("property", "article:tag", tag)),
+        projectMeta("name", "twitter:card", "summary_large_image"),
+        projectMeta("name", "twitter:title", PROJECT.title),
+        projectMeta("name", "twitter:description", description),
+        projectMeta("name", "twitter:image", image),
+        projectMeta("name", "twitter:image:alt", imageAlt),
+        projectMeta("name", "citation_title", PROJECT.title),
+        ...PROJECT.authors.map(author => projectMeta("name", "citation_author", author.name)),
+        projectMeta("name", "citation_publication_date", PROJECT.year),
+        projectMeta("name", "citation_conference_title", PROJECT.venue),
+        projectMeta("name", "citation_pdf_url", PROJECT.pdfUrl),
+        projectMeta("name", "theme-color", PROJECT.themeColor),
+        projectMeta("name", "msapplication-TileColor", PROJECT.themeColor),
+        projectMeta("name", "apple-mobile-web-app-capable", "yes"),
+        projectMeta("name", "apple-mobile-web-app-status-bar-style", "default"),
+        `<title>${projectEscape(projectPageTitle())}</title>`,
+        `<script type="application/ld+json">${JSON.stringify(articleData)}</scr` + `ipt>`,
+        `<script type="application/ld+json">${JSON.stringify(organizationData)}</scr` + `ipt>`
+      ];
+      document.write(tags.join("\n"));
+    }
 
-  <meta name="twitter:title" content="Plausibility Machines: How LLM-Generated Explanations Shape Media Bias Perception">
+    function renderProjectMetadata() {
+      document.querySelectorAll("[data-project-title]").forEach(element => {
+        element.textContent = PROJECT.title;
+      });
+      document.querySelectorAll("[data-project-status]").forEach(element => {
+        element.textContent = PROJECT.status;
+      });
+      document.querySelectorAll("[data-project-year]").forEach(element => {
+        element.textContent = PROJECT.year;
+      });
+      document.querySelectorAll("[data-project-abstract]").forEach(element => {
+        element.textContent = projectText(PROJECT.abstract);
+      });
+      document.querySelectorAll("[data-project-bibtex]").forEach(element => {
+        element.textContent = projectBibTeX();
+      });
+      document.querySelectorAll("[data-equal-contribution-note]").forEach(element => {
+        element.hidden = !PROJECT.authors.some(author => author.equalContribution);
+      });
 
-  <meta name="twitter:description" content="Explanations changed how people perceive bias. LMM explanations influenced peoples' perceptions more. Bias ratings were more accurate after explanation. Exception: People perceived more bias than there was after they read LLM explanations of articles with no to little bias. LLM and prompts extremely important: If prompted to identify bias, LLM will identify bias, no matter how little bias there is.">
+      const authors = document.querySelector("[data-project-authors]");
+      if (authors) {
+        authors.innerHTML = PROJECT.authors.map((author, index) => {
+          const comma = index < PROJECT.authors.length - 1 ? "," : "";
+          const equal = author.equalContribution ? "<sup>*</sup>" : "";
+          const name = projectEscape(author.name);
+          const linkedName = author.url ? `<a href="${projectEscape(author.url)}" target="_blank">${name}</a>` : name;
+          return `<span class="author-block">${linkedName}${equal}${comma}</span>`;
+        }).join("\n");
+      }
 
-  <meta name="twitter:image" content="https://media-bias-group.github.io/LLMExplanations_ProjectPage/static/images/TeaserImageLLM.png">
-  <meta name="twitter:image:alt" content="Plausibility Machines: How LLM-Generated Explanations Shape Media Bias Perception - Research Preview">
-  -->
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="Plausibility Machines: How LLM-Generated Explanations Shape Media Bias Perception">
-  <meta name="citation_author" content="Wessel, Martin">
-  <meta name="citation_author" content="Hinterreiter, Smi">
-  <meta name="citation_author" content="Donnay, Karsten">
-  <meta name="citation_author" content="Pfeffer, Jürgen">
-  <meta name="citation_author" content="Latoschik, Marc Erich">
-  <meta name="citation_author" content="Spinde, Timo">
-  <meta name="citation_publication_date" content="2026">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME_unpublished">
-  <meta name="citation_pdf_url" content="https://media-bias-group.github.io/LLMExplanations_ProjectPage/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+      const highlights = document.querySelector("[data-project-highlights]");
+      if (highlights) {
+        highlights.innerHTML = PROJECT.highlights.map(item => `<li>${projectEscape(item)}</li>`).join("\n");
+      }
+    }
+
+    writeProjectHead();
+    document.addEventListener("DOMContentLoaded", renderProjectMetadata);
+  </script>
   
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -99,10 +222,6 @@ Explanations Shape Media Bias Perception">
   <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>Plausibility Machines: How LLM-Generated Explanations Shape Media Bias Perception - Martin Wessel, Smi Hinterreiter, Karsten Donnay, Jürgen Pfeffer, Marc Erich Latoschik, Timo Spinde | Paper Summary</title>
-  
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
@@ -136,113 +255,6 @@ Explanations Shape Media Bias Perception">
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
   
-  <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "Plausibility Machines: How LLM-Generated Explanations Shape Media Bias Perception",
-    "description": "Explanations changed how people perceive bias. LMM explanations influenced peoples' perceptions more. Bias ratings were more accurate after explanation. Exception: People perceived more bias than there was after they read LLM explanations of articles with no to little bias. LLM and prompts extremely important: If prompted to identify bias, LLM will identify bias, no matter how little bias there is.",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "Martin Wessel",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "Technical University of Munich, Germany"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "Smi Hinterreiter",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "University of Würzburg, Germany"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "Karsten Donnay",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "University of Zurich, Switzerland"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "Jürgen Pfeffer",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "Technical University of Munich, Germany"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "Marc Erich Latoschik",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "University of Würzburg, Germany"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "Timo Spinde",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "National Institute of Informatics, Japan"
-        }
-      }
-    ],
-    "datePublished": "2026-03-04",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://media-bias-group.github.io/LLMExplanations_ProjectPage/YOUR_PROJECT_PAGE",
-    "image": "https://media-bias-group.github.io/LLMExplanations_ProjectPage/static/images/TeaserImageLLM.png",
-    "keywords": ["media bias", "LLM", "ChatGPT", "Bias perception", "partisan bias"],
-    "abstract": "The prevalence of bias in news media can undermine democratic processes by reinforcing partisan divides, eroding public trust, and influencing electoral results.
-Even though consumers often overlook biases, interventions to help audiences recognize them remain limited.
-Large language models (LLMs) show promise for generating explanations to disclose and mitigate bias in news articles, but their effectiveness remains untested.
-We conduct a randomized controlled trial with U.S. adults (n=504) reading a news article to measure whether LLM-generated explanations, presented without source attribution, can change audiences’ perception of media bias, and how perception changes compare to human-written explanations and no-explanation controls.
-We find that explanations significantly change bias perception compared to controls.
-However, only LLM explanations increase bias perception significantly.
-Further, political alignment with an article increases bias perception after LLM explanations but not after human explanations.
-Descriptively, LLM explanations produce false positives on low-bias content and reduce participant-expert alignment, whereas human explanations have more conservative patterns but are overall more accurate.
-We discuss the potential of LLMs in media literacy interventions and their role as “plausibility machines” that tend to produce false positives by overidentifying bias, leading neutral content to be perceived as biased.",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://media-bias-group.github.io/LLMExplanations_ProjectPage/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "LMM"
-      },
-      {
-        "@type": "Thing", 
-        "name": "Media Bias"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Media Bias Research Group",
-    "url": "https://media-bias-research.org",
-    "logo": "https://media-bias-group.github.io/LLMExplanations_ProjectPage/static/images/favicon.ico",
-    "sameAs": [
-      "https://github.com/media-bias-group",
-    ]
-  }
-  </script>
 </head>
 <body>
 
@@ -332,34 +344,12 @@ We discuss the potential of LLMs in media literacy interventions and their role 
       <div class="container is-max-desktop" style="max-width: 1080px;">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Plausibility Machines: How LLM-Generated
-Explanations Shape Media Bias Perception</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/martinpwessel/" target="_blank">Martin Wessel</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="https://www.linkedin.com/in/smi-hinterreiter/" target="_blank">Smi Hinterreiter</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://www.linkedin.com/in/karsten-donnay/" target="_blank">Karsten Donnay</a>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://www.linkedin.com/in/jürgen-pfeffer-517423244/" target="_blank">Jürgen Pfeffer</a>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://hci.uni-wuerzburg.de/people/marc-latoschik/" target="_blank">Marc Erich Latoschik</a>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://www.linkedin.com/in/timo-spinde/?locale=de" target="_blank">Timo Spinde</a>
-                    </span> 
-                  </div>
+            <h1 class="title is-1 publication-title" data-project-title></h1>
+            <div class="is-size-5 publication-authors" data-project-authors></div>
 
                   <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Under Review<br>2026</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Equal Contribution</small></span>
+                    <span class="author-block"><span data-project-status></span><br><span data-project-year></span></span>
+                    <span class="eql-cntrb" data-equal-contribution-note><small><br><sup>*</sup>Equal Contribution</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -435,15 +425,7 @@ Explanations Shape Media Bias Perception</h1>
       <div class="column is-four-fifths">
         <h2 class="title is-3">Highlights</h2>
         <div class="content has-text-justified">
-          <ul>
-            <li>LLMs like ChatGPT could explain bias to news readers, but are the explanations as effective as expert explanations?</li>
-            <li>Study compared how people rate bias of an article before + after reading a text explaining the bias (either written by expert or LLM)</li>
-            <li>Explanations changed how people perceive bias</li>
-            <li>LMM explanations influenced peoples' perceptions more</li>
-            <li>Bias ratings were more accurate after explanation</li>
-            <li>Exception: People perceived more bias than there was after they read LLM explanations of articles with no to little bias</li>
-            <li>LLM and prompts extremely important: If prompted to identify bias, LLM will identify bias, no matter how little bias there is</li>
-          </ul>
+          <ul data-project-highlights></ul>
         </div>
       </div>
     </div>
@@ -498,17 +480,7 @@ Explanations Shape Media Bias Perception</h1>
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-          The prevalence of bias in news media can undermine democratic processes by reinforcing partisan divides, eroding public trust, and influencing electoral results.
-Even though consumers often overlook biases, interventions to help audiences recognize them remain limited.
-Large language models (LLMs) show promise for generating explanations to disclose and mitigate bias in news articles, but their effectiveness remains untested.
-We conduct a randomized controlled trial with U.S. adults (n=504) reading a news article to measure whether LLM-generated explanations, presented without source attribution, can change audiences’ perception of media bias, and how perception changes compare to human-written explanations and no-explanation controls.
-We find that explanations significantly change bias perception compared to controls.
-However, only LLM explanations increase bias perception significantly.
-Further, political alignment with an article increases bias perception after LLM explanations but not after human explanations.
-Descriptively, LLM explanations produce false positives on low-bias content and reduce participant-expert alignment, whereas human explanations have more conservative patterns but are overall more accurate.
-We discuss the potential of LLMs in media literacy interventions and their role as “plausibility machines” that tend to produce false positives by overidentifying bias, leading neutral content to be perceived as biased.</p>
+          <p data-project-abstract></p>
         </div>
       </div>
     </div>
@@ -526,14 +498,7 @@ We discuss the potential of LLMs in media literacy interventions and their role 
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{Wessel2026Plausibility,
-  title={Plausibility Machines: How LLM-Generated
-Explanations Shape Media Bias Perception},
-  author={Martin Wessel and Smi Hinterreiter and Karsten Donnay and Jürgen Pfeffer and Marc Erich Latoschik and Timo Spinde},
-  journal={Under Review},
-  year={2026},
-  url={https://media-bias-group.github.io/LLMExplanations_ProjectPage/}
-}</code></pre>
+      <pre id="bibtex-code"><code data-project-bibtex></code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
